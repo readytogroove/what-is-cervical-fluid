@@ -1,6 +1,13 @@
+html {
+	height: 100%;
+}
+
 body {
+	margin: 0;
+	padding: 0;
 	font-family: "helvetica neue", helvetica, arial;
 	color: white;
+	height: 100% !important;
 }
 
 h1 {
@@ -23,50 +30,103 @@ p {
 	letter-spacing: 0.045em;
 }
 
-#background1 {
-	z-index:-800;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background:url('../img/background1.jpg') repeat 0 0;
+.picture {
+	height: 100%;
+	width: 100%;
+}
+
+.picture .bkg {
+	height: 100%;
+	width: 100%;
+}
+
+.picture1 .bkg {
+	background: url('../img/background1.jpg') no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
+}
+
+.picture2 .bkg {
+	background: url('../img/background2.jpg') no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.grooveLogo {
+	width: 178px;
+	height: 44px;
+	top: 5%;
+	left: 5%;
+	background: url('../img/groove.png') no-repeat;
+	position: fixed;
+	background-size: 100%;
+}
+
+.grooveIcon {
+	width: 28px;
+	height: 44px;
+	top: 5%;
+	left: 5%;
+	background: url('../img/groove-icon.png') no-repeat;
+	position: fixed;
+	background-size: 100%;
+	z-index: 999;
 }
 
 #intro {
-	width: 50%;
-	left: 50%;
-	margin-left: -25%;
+	/*width: 45%;
+	left: 50%;*/
+	padding-top: 250px;
+	/*margin-left: -22.5%;*/
 	text-align: center;
-	z-index: -700;
 }
 
-#slide1Background {
-	z-index: -650;
+.info-section {
+	background: #333;
+	/*height: 100%;*/
 	width: 100%;
-	height: auto;
+	z-index: 3;
+	position: relative;
+}
+
+.info-wrapper {
+	width: 60%;
+  padding: 5%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.infoHeader {
+	padding-bottom: 10px;
+}
+
+.chart {
+	top: 15%;
+	left: 5%;
+	width: 550px;
+	height: 550px;
+	position: fixed;
+}
+
+.hormoneChartBackground {
+	background: url('../img/hormoneChartBackground.png');
+}
+
+.hormoneChart1 {
+	background: url('../img/hormoneChart1.png');
+}
+
+.chartInfoBox {
+	top: 15%;
+	left: 50%;
+	position: fixed;
+	width: 45%;
 	background-color: #333;
 }
 
-#slide1 {
-	width: 55%;
-	margin-left: auto;
-	margin-right: auto;
-	text-align: center;
-	padding-top: 10%;
-	padding-bottom: 10%;
-}
-
-div#slide1 h2 {
-	padding-bottom: 15px;
-}
-
-#background2 {
-	z-index:-800;
-	top:0;
-	left:0;
-	width:100%;
-	height:100%;
-	background:url('../img/background2.jpg') repeat 0 0;
-	background-size: cover;
+.chartInfo {
+	text-align: left;
+	padding: 0 5% 5% 5%;
+	position: relative;
 }
