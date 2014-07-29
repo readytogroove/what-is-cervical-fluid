@@ -311,7 +311,7 @@ p#poweredBy {
 	}
 
 	.backgroundImage {
-		background-attachment: scroll;
+		background-attachment: scroll !important;
 	}
 
 	h1 {
