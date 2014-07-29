@@ -75,7 +75,7 @@ p {
 	background: url('../img/grooveWhite.png') no-repeat;
 	background-size: 100%;
 	position: fixed;
-	z-index: -4;
+	z-index: -50;
 	text-indent: -9999px;
 }
 
@@ -94,7 +94,7 @@ p {
 	height: 100%;
 	background: url('../img/motherDaughter.jpg') no-repeat;
 	background-position: 60% 20%;
-	z-index: -5;
+	z-index: -100;
 }
 
 #backgroundMotherDaughter:after {
