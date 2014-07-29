@@ -68,7 +68,6 @@ p {
 	}
 
 #grooveLogo {
-	-webkit-transform: translate3d(0,0,0);
 	width: 151px;
 	height: 44px;
 	top: 5%;
