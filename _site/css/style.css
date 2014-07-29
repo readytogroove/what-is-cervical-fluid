@@ -309,9 +309,9 @@ p#poweredBy {
 		width: 100px;
 	}
 
-/*	#introSlide {
-		width: 80%
-	}*/
+	.backgroundImage {
+		background-attachment: scroll !important;
+	}
 
 	h1 {
 		font-size: 40px;
