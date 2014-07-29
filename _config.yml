@@ -1,0 +1,8 @@
+name: "What is cervical fluid?"
+description: "Learn about cervical fluid, or cervical mucus, and why it's vital for your health."
+
+url: "http://localhost:4000"
+
+encoding: "utf-8"
+markdown: rdiscount
+permalink: pretty
