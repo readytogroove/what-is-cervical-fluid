@@ -311,7 +311,7 @@ p#poweredBy {
 	}
 
 	.backgroundImage {
-		background-attachment: scroll;
+		background-attachment: scroll !important;
 	}
 
 	h1 {
@@ -414,6 +414,7 @@ p#poweredBy {
 	}
 
 	#grooveLogo {
+		position: absolute;
 		left: 50%;
 		margin-left: -50px;
 	}
