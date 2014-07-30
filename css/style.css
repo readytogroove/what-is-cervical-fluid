@@ -90,14 +90,14 @@ p {
 	overflow: hidden;
 }
 
-#backgroundMotherDaughter {
+#backgroundFriends {
 	height: 100%;
-	background: url('../img/motherDaughter.jpg') no-repeat;
-	background-position: 60% 20%;
+	background: url('../img/friends.jpg') no-repeat;
+	background-position: 60% 45%;
 	z-index: -1;
 }
 
-#backgroundMotherDaughter:after {
+#backgroundFriends:after {
 	position: absolute;
 	content: " ";
 	top: 0;
@@ -155,7 +155,7 @@ p {
 	background-position: 50% 20%;
 }
 
-#backgroundEnding {
+#backgroundMotherDaughter {
 	height: 60%;
 	background: url('../img/motherDaughter.jpg') no-repeat;
 	position: relative;
@@ -446,7 +446,7 @@ p#poweredBy {
 		padding-right: 10px;
 	}
 
-	#backgroundDoctor, #backgroundPregnancy, #backgroundPreventPregnancy, #backgroundStrongWoman, #backgroundEnding {
+	#backgroundDoctor, #backgroundPregnancy, #backgroundPreventPregnancy, #backgroundStrongWoman, #backgroundMotherDaughter {
 		height: 40%;
 	}
 
