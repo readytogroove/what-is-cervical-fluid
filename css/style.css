@@ -220,7 +220,6 @@ p {
 	width: 45%;
 	float: right;
 	margin-right: 5%;
-	padding-top: 75px;
 }
 
 .textBox {
@@ -228,9 +227,9 @@ p {
 	padding: 30px;
 }
 
-/*#firstTextBox {
-	margin-top: 150px;
-}*/
+#firstTextBox {
+	margin-top: 75px;
+}
 
 #logo {
 	height: 50px;
