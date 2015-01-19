@@ -109,25 +109,25 @@ p {
 
 #hormoneChartBackground1 {
 	height: 100%;
-	background: url('../img/hormoneChartBackground1.png') no-repeat;
+	background: url('/img/background-female-sex-hormone-chart.png') no-repeat;
 	background-position: 40% 40%;
 }
 
 #hormoneChartBackground2 {
 	height: 100%;
-	background: url('../img/hormoneChartBackground2.png') no-repeat;
+	background: url('/img/background-female-sex-hormone-chart-follicular-phase.png') no-repeat;
 	background-position: 40% 40%;
 }
 
 #hormoneChartBackground3 {
 	height: 100%;
-	background: url('../img/hormoneChartBackground3.png') no-repeat;
+	background: url('/img/background-female-sex-hormone-chart-ovulation.png') no-repeat;
 	background-position: 40% 40%;
 }
 
 	#hormoneChartBackground4 {
 	height: 100%;
-	background: url('../img/hormoneChartBackground4.png') no-repeat;
+	background: url('/img/background-female-sex-hormone-chart-luteal-phase.png') no-repeat;
 	background-position: 40% 40%;
 }
 
