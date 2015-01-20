@@ -90,14 +90,14 @@ p {
 	overflow: hidden;
 }
 
-#backgroundFriends {
+#backgroundWoman {
 	height: 100%;
 	background: url('../img/woman-by-the-ocean.jpg') no-repeat;
 	background-position: 60% 45%;
 	z-index: -1;
 }
 
-#backgroundFriends:after {
+#backgroundWoman:after {
 	position: absolute;
 	content: " ";
 	top: 0;
@@ -444,6 +444,10 @@ p#poweredBy {
 		padding-bottom: 30px;
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+
+	#backgroundWoman {
+		background-position: 40% 45%;
 	}
 
 	#backgroundDoctor, #backgroundPregnancy, #backgroundPreventPregnancy, #backgroundStrongWoman, #backgroundMotherDaughter {
