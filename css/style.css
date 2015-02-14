@@ -74,7 +74,7 @@ p {
 	left: 5%;
 	background: url('../img/grooveWhite.png') no-repeat;
 	background-size: 100%;
-	position: fixed;
+	position: absolute;
 	z-index: 0;
 	text-indent: -9999px;
 }
@@ -125,7 +125,7 @@ p {
 	background-position: 40% 40%;
 }
 
-	#hormoneChartBackground4 {
+#hormoneChartBackground4 {
 	height: 100%;
 	background: url('/img/background-female-sex-hormone-chart-luteal-phase.png') no-repeat;
 	background-position: 40% 40%;
@@ -172,6 +172,7 @@ p {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	position: relative;
+	text-align: center;
 	z-index: 1;
 }
 
@@ -183,19 +184,15 @@ p {
 }
 
 #introSlide {
-	width: 55%;
-	margin-left: auto;
-	margin-right: auto;
 	margin-top: 250px;
 	position: relative;
+	text-align: center;
 	z-index: 10;
 }
 
 #introSlideContent {
-	text-align: center;
+	width: 55%;
 	padding: 20px;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 #introSlide h1, #introSlide h2, #introSlide p {
@@ -225,6 +222,7 @@ p {
 .textBox {
 	background-color: white;
 	padding: 30px;
+	margin-top: 50px;
 }
 
 #firstTextBox {
